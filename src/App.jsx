@@ -247,9 +247,21 @@ function App() {
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
       <Container maxWidth="xl" sx={{ py: 4 }}>
-        <Typography variant="h4" gutterBottom>
-          Comment Formatter
-        </Typography>
+        <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', mb: 2, flexWrap: 'wrap', gap: 1 }}>
+          <Typography variant="h4" component="h1">
+            Shadowrun Matrix Chatter
+          </Typography>
+          <Typography
+            component="a"
+            href="https://nullsheen.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            variant="body2"
+            sx={{ color: 'text.secondary', textDecoration: 'none', '&:hover': { color: 'primary.main' } }}
+          >
+            nullsheen.com
+          </Typography>
+        </Box>
 
         <Paper sx={{ p: 3, mb: 3 }}>
           <Grid container spacing={2}>

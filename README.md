@@ -1,6 +1,6 @@
-# Comment Formatter
+# Shadowrun Matrix Chatter
 
-A Vite/React app for building, formatting, and exporting timestamped comment threads. Inspired by a Python script that generates formatted chat logs with usernames and timestamps — useful for tabletop RPG session logs, forum roleplay, or any scenario where you need a realistic-looking comment thread.
+A free tool by [Nullsheen.com](https://nullsheen.com) for building and exporting formatted Shadowrun Matrix chat logs. Compose timestamped comment threads with custom handles, drag-and-drop ordering, and one-click export — perfect for tabletop RPG session logs, forum roleplay write-ups, or any scenario where you need a realistic-looking Matrix thread.
 
 ## Features
 
